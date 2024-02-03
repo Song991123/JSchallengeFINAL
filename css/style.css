@@ -68,6 +68,41 @@ form{
     align-items: center;
 }
 
+#visible input{
+    width: 400px;
+}
+
 h1{
-    font-size: 4em;
+    font-size: 2em;
+}
+
+hr{
+    margin-Top: 18px;
+    margin-bottom: 18px;
+}
+#greeting{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#clock{
+    font-size: 10em;
+    margin-bottom: 18px;
+}
+
+#list-box{
+    text-align: left;
+    padding: 0;
+    width: 530px;
+
+}
+li {
+    margin: 40px 0px;
+}
+
+#list-box button {
+    left: 580px;
+    margin-top: -3px;
+    position: absolute;
+    padding: 10px 12px;
 }

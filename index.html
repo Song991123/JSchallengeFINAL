@@ -13,14 +13,20 @@
             <button>Log In</button>
         </form>
         <div id="visible" class="hidden">
-            <h1 id="greeting"></h1>
+            <h1 id="clock"></h1>
             <hr>
-            <h2 id="clock"></h2>
+            <h1 id="greeting"></h1>
+            <form id="todo-form">
+                <input type="text" placeholder="Write a To do and Press Enter" required />
+            </form>
+            <div id="list-box">
+                <ul id="todo-list"></ul>
+            </div>
         </div>
-        
     </div>
     <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/backgroundImg.js"></script>
+    <script src="js/todo.js"></script>
 </body>
 </html>

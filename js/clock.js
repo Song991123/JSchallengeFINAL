@@ -2,7 +2,7 @@
  *  목적 : 실시간 시계 js **/
 
 
-const clock = document.querySelector("h2#clock");
+const clock = document.querySelector("h1#clock");
 
 function getClock() {
     const date    = new Date();
