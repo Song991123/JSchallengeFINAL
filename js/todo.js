@@ -6,10 +6,12 @@ const toDoForm  = document.getElementById("todo-form");
 const toDoInput = toDoForm.querySelector("input");
 const toDoList  = document.getElementById("todo-list");
 
-const TODOS_KEY = "todos";
-
 let toDos = [];
 
+// --------------- Strings ---------------
+const TODOS_KEY = "todos";
+
+// --------------- Functoins ---------------
 function saveToDos(newTodo){
     localStorage.setItem(TODOS_KEY, JSON.stringify(toDos));
 }
@@ -20,7 +22,7 @@ function paintTodo(newTodo){
     li.innerText = newTodo.text;
     
     const button = document.createElement("button");
-    button.innerText = "X";
+    button.innerText = "✓";
     button.addEventListener("click", deleteToDo);
 
     li.appendChild(button);

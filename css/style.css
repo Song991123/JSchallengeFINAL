@@ -56,6 +56,10 @@ button.ghost {
     border-color: #FFFFFF;
 }
 
+#login-form button{
+    margin-top: 6px;
+}
+
 input {
     background-color: #eee;
     border: none;
@@ -88,6 +92,7 @@ hr{
 #clock{
     font-size: 10em;
     margin-bottom: 18px;
+    margin-top: 3px;
 }
 
 #list-box{
@@ -102,7 +107,13 @@ li {
 
 #list-box button {
     left: 580px;
+    border: 1px solid #50ce2a;
+    background-color: #50ce2a;
     margin-top: -3px;
     position: absolute;
     padding: 10px 12px;
+}
+#weather span{
+    float: right;
+    margin-bottom: -33px;
 }

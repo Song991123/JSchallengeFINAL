@@ -4,6 +4,7 @@
 
 const clock = document.querySelector("h1#clock");
 
+// --------------- Functoins ---------------
 function getClock() {
     const date    = new Date();
     const hours   = stringBlank(date.getHours());

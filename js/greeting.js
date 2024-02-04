@@ -33,6 +33,6 @@ function OnLoginsubmit(event){
 
 function paintGreetings(){
     const username = localStorage.getItem(USERNAME_KEY);
-    greeting.innerText = `Hello ${username}`; // === "Hello " + username
+    greeting.innerText = `${username}'s ToDo List`;
     visible.classList.remove(HIDDEN_CLASSNAME);
 }
