@@ -1,5 +1,5 @@
 # Nomad coder JS challenge Final Project
-https://song991123.github.io/JSchallengeFINAL/
+https://song991123.github.io/Todolist/
 
 # 만들게된 계기 / 만든 시간
 바닐라 챌린지 최종 과제(총 1일 소요)
